@@ -18,10 +18,13 @@
     padding-left: 0px;
 } */
 #welcome img{
-    display: inline-block;
     transform: rotate(-30deg);
-
 }
 span{
     display: inline-block;
+}
+#welcome2 img{
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
 }
