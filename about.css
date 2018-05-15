@@ -1,0 +1,27 @@
+.student{
+    height: 450px;
+}
+#welcome{
+    display: inline-block;
+    width: 1300px;
+}
+#welcome p,h1,h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:500px;
+    margin-left:100px; 
+    margin-right:100px; 
+    text-align: left;
+    /* padding-right: 100px; */
+}
+/* #welcome h1{
+    margin-left: 0px;
+    padding-left: 0px;
+} */
+img{
+    display: inline-block;
+    transform: rotate(-30deg);
+
+}
+span{
+    display: inline-block;
+}

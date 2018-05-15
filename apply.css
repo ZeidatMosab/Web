@@ -16,7 +16,6 @@ input[type=text], select, textarea {
 input[type=email], select, textarea {
     width: 30%;
     /*background-image: url(images/header-bg);*/
-    position:; 
     background: white ;
     padding: 12px;
     border: 1px solid #ccc;
