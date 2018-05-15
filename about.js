@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $("body").animate({
-        scrollTop: 700
+        scrollTop: 580
     }, 1200);
     return false;
 });
