@@ -17,11 +17,14 @@
     margin-left: 0px;
     padding-left: 0px;
 } */
-img{
-    display: inline-block;
+#welcome img{
     transform: rotate(-30deg);
-
 }
 span{
     display: inline-block;
+}
+#welcome2 img{
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
 }

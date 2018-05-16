@@ -37,10 +37,7 @@
 	{
 		line-height: 180%;
 	}
-	
-	strong
-	{
-	}
+
 	
 	a
 	{
@@ -103,9 +100,6 @@
 /* List Styles                                                                   */
 /*********************************************************************************/
 
-	ul.style1
-	{
-	}
 
 
 /*********************************************************************************/
@@ -219,13 +213,17 @@
 	
 	.title .byline
 	{
-		font-size: 1.3em;
+		font-size: 1.1em;
 		text-align: left;
 		padding-left: 10px;
 		color: rgba(255,255,255,0.60);
 	}
 	.title ul{
 		list-style-type: disc;
+	}
+	.title ul ul{
+		list-style-type: circle;	
+		padding-left:20px 
 	}
 
 /*********************************************************************************/
@@ -248,14 +246,36 @@
 		padding: 5em 0em 7em 0em;
 		background: #111111 url(images/header-bg.jpg) no-repeat center;
 		background-size: 2000px 1000px;
-		background-color: #111111
+		background-color: #111111;
+		animation: fadout 100ms;
 	}
-
+	
 	#header
 	{
-		position: relative;
+		position: absolute;
 		padding: 5em 0em;
 	}
+	.body-scrolled #header
+	{
+		position: fixed;
+		padding: 10px;
+		top: 0;
+		background-color: rgba( 0 ,0 ,0, 0.80);
+		animation: fadin 100ms;
+		width:  100%;
+		height: 85px;
+		z-index: 1000;
+	}
+		
+	@keyframes fadin {
+		from {height: 0px;}
+		to {height: 85px;}
+	}
+	@keyframes fadout {
+		from {height: 85px;}
+		to {height: 0;}
+	}
+
 
 /*********************************************************************************/
 /* Logo                                                                          */
@@ -269,6 +289,16 @@
 		width: 170px;
 		height: 170px;
 	}
+
+	.body-scrolled #logo
+	{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 0;
+		width: 80px;
+		height: 80px;
+	}
 	
 	
 
@@ -279,7 +309,8 @@
 	#menu
 	{
 		position: absolute;
-		top: 4em;
+		top: 50%;
+		transform: translateY(-50%);
 		right: 5.5em;
 	}
 	
@@ -323,9 +354,6 @@
 		color: rgba(255,255,255,1);
 	} */
 	
-	#menu .icon
-	{
-	}
 
 /*********************************************************************************/
 /* Banner                                                                        */
@@ -342,8 +370,7 @@
 	#banner .title h2
 	{
 		font-size: 4em;
-		position: absolute;
-		top: 4.3em
+		margin-top: 100px
 	}
 	
 	#banner .title .byline
@@ -369,33 +396,21 @@
 /* Page                                                                          */
 /*********************************************************************************/
 
-	#page
-	{
-	}
 
 /*********************************************************************************/
 /* Content                                                                       */
 /*********************************************************************************/
 
-	#content
-	{
-	}
 
 /*********************************************************************************/
 /* Sidebar                                                                       */
 /*********************************************************************************/
 
-	#sidebar
-	{
-	}
 
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
 
-	#footer
-	{
-	}
 
 /*********************************************************************************/
 /* Copyright                                                                     */
