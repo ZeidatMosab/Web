@@ -1,0 +1,20 @@
+.student{
+    background: #111111 url(images/Fees.jpg) no-repeat top;
+
+}
+#welcome2 ul
+{
+    color: rgba(0,0,0,0.8);
+}
+#welcome2 p
+{
+    color: rgba(0,0,0,0.8);
+}
+#welcome2 .container
+{
+     width: 300px;
+    padding: 0px 100px;
+    color: rgba(0,0,0,0.8);
+    margin-left: 700px ;
+}
+

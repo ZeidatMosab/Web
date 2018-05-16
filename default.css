@@ -208,7 +208,10 @@
 	
 	.title h2
 	{
-		font-size: 2.7em;
+		font-size: 2.2em;
+		font-family:  condensed medium;
+		color:rgba(255, 255, 255, 1);
+		font-weight: bolder;
 	}
 	
 	.title .byline
@@ -244,7 +247,7 @@
 	{
 		position: relative;
 		padding: 5em 0em 7em 0em;
-		background: #111111 url(images/header-bg.jpg) no-repeat center;
+		background: #111111 url(images/header.jpg) no-repeat center;
 		background-size: 2000px 1000px;
 		background-color: #111111;
 		animation: fadout 100ms;
@@ -254,6 +257,8 @@
 	{
 		position: absolute;
 		padding: 5em 0em;
+		width: 100%;
+
 	}
 	.body-scrolled #header
 	{
@@ -266,7 +271,10 @@
 		height: 85px;
 		z-index: 1000;
 	}
-		
+	.body-scrolled #menu
+	{
+		background: none;
+	}
 	@keyframes fadin {
 		from {height: 0px;}
 		to {height: 85px;}
@@ -285,7 +293,7 @@
 	{
 		position: absolute;
 		top: -5pt;
-		left: 0;
+		left: 5%;
 		width: 170px;
 		height: 170px;
 	}
@@ -312,11 +320,17 @@
 		top: 50%;
 		transform: translateY(-50%);
 		right: 5.5em;
+		background-color:rgba(255, 255, 255, 0.8) ;
+		height: 50%;
+		width: 60%;
+
 	}
 	
 	#menu ul
 	{
 		display: inline-block;
+		margin-top: 3.8%;
+		margin-left: 6%;
 		color: #ee0000
 
 	}
@@ -334,8 +348,8 @@
 		letter-spacing: 1px;
 		text-decoration: none;
 		text-transform: uppercase;
-		font-size: 0.8em;
-		color: rgba(175, 64, 0, 0.8);
+		font-size: 90%;
+		color: rgba(70, 70, 70, 0.8);
 		font-weight: bold;
 	}
 	
@@ -362,14 +376,14 @@
 	#banner
 	{
 		overflow: hidden;
-		padding-top: 8em;
+		padding-top: 15em;
 		text-align: center;
 		margin-top: 4pt;
 	}
 	
 	#banner .title h2
 	{
-		font-size: 4em;
+		font-size: 3.2em;
 		margin-top: 100px
 	}
 	

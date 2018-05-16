@@ -1,6 +1,5 @@
 .student{
 	background: #111111 url(images/student.jpg) no-repeat top;
-
 }
 .speech{
 	background-color: white;
@@ -85,9 +84,6 @@ input[type=submit]:hover {
 		padding: 0px 100px;
 		color: rgba(255,255,255,0.8);
 		margin-left: 700px ;
-
-
-
 	}
 	
 	#welcome2 a
