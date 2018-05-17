@@ -54,7 +54,7 @@
 	{
 		overflow: hidden;
 		margin: 0em auto;
-		width: 1200px;
+		width: 100%;
 	}
 	
 /*********************************************************************************/
@@ -172,7 +172,10 @@
 		font-size: 150%;
 		color: rgb(0, 0, 0);
 	}
-	
+	.button:active {
+		transform: translateY(4px);
+	  }
+	  
 	.button-alt
 	{
 		padding: 1em 2em;
@@ -189,6 +192,7 @@
 	.boxC
 	{
 		width: 384px;
+		height: 190%;
 	}
 
 	.boxA,
@@ -277,10 +281,6 @@
 		height: 85px;
 		z-index: 1000;
 	}
-	.body-scrolled #menu
-	{
-		background: none;
-	}
 	@keyframes fadin {
 		from {height: 0px;}
 		to {height: 85px;}
@@ -331,12 +331,19 @@
 		height: 50%;
 		width: 60%;
 		background: url(images/menu.jpg) no-repeat center 100%;
+		border: 2px solid #000000;
 		border-radius: 10px;
 		text-align: center;
 		vertical-align: middle;			
 
 	}
-	
+	.body-scrolled #menu
+	{
+		background: none;
+		border: none
+
+	}
+
 	#menu ul
 	{
 		display: inline-block;
@@ -410,17 +417,11 @@
 		text-align: justify;
 	}
 	
-	/* #banner .button
+	#banner .button
 	{
-		margin-top: 2em;
-		display: inline-block;
-		padding: 1.40em 3em;
 		border: 2px solid rgb(0, 0, 0);
-		border-radius: 6px;
-		font-weight: 700;
-		font-size: 1em;
-		
-	} */
+		border-radius: 6px;		
+	}
 
 /*********************************************************************************/
 /* Page                                                                          */
@@ -560,6 +561,9 @@
 		height: 0;
 		visibility: hidden;
 
+	}
+	#newBut,#evBut{
+		margin-bottom: 1.5%;
 	}
 	@keyframes Sfadin{
 		from {height: 0px;}
