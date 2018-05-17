@@ -3,7 +3,7 @@
 }
 #welcome{
     display: inline-block;
-    width: 1300px;
+    width: 100%;
 }
 #welcome p,h1,h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -17,9 +17,6 @@
     margin-left: 0px;
     padding-left: 0px;
 } */
-#welcome img{
-    transform: rotate(-30deg);
-}
 span{
     display: inline-block;
 }

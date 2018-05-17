@@ -1,6 +1,6 @@
 $(document).ready(function() {
          $("body").animate({
-             scrollTop: 670
+             scrollTop: 700
          }, 1200);
          return false;
     });
@@ -23,6 +23,6 @@ $(document).ready(function() {
         } else {
           $("body").removeClass("body-scrolled");
           $("#return-to-top").fadeOut(500);
-        }s
+        }
       });
     

@@ -23,5 +23,5 @@ $(document).on("click", "#return-to-top", function() {
   } else {
     $("body").removeClass("body-scrolled");
     $("#return-to-top").fadeOut(500);
-  }s
+  }
 });
