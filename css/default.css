@@ -255,7 +255,7 @@
 	{
 		position: relative;
 		padding: 5em 0em 7em 0em;
-		background: #111111 url(images/header.jpg) no-repeat center;
+		background: #111111 url(../images/header.jpg) no-repeat center;
 		background-size: 2000px 1000px;
 		background-color: #111111;
 		animation: fadout 100ms;
@@ -330,7 +330,7 @@
 		/* background-color:rgba(255, 255, 255, 0.8) ; */
 		height: 50%;
 		width: 60%;
-		background: url(images/menu.jpg) no-repeat center 100%;
+		background: url(../images/menu.jpg) no-repeat center 100%;
 		border: 2px solid #000000;
 		border-radius: 10px;
 		text-align: center;
@@ -532,7 +532,7 @@
 		position: fixed;
 		bottom: 40px;
 		right: 40px;
-		background: rgba(151, 89, 18, 1) url(images/top.png) no-repeat center 43%;
+		background: rgba(151, 89, 18, 1) url(../images/top.png) no-repeat center 43%;
 		width: 50px;
 		height: 50px;
 		text-align: center;
@@ -547,7 +547,7 @@
 		transition: all 0.3s ease; */
 	}
 	#return-to-top:hover {
-		background: rgba(214, 200, 200, 0.7) url(images/top.png) no-repeat center 43%;
+		background: rgba(214, 200, 200, 0.7) url(../images/top.png) no-repeat center 43%;
 	}
 	#eve{
 		/* display: none;
